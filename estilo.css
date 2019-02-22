@@ -1,0 +1,152 @@
+/* Barra de Navegação */
+#servicos a {
+    font-family: fantasy;
+    color: white;
+}
+
+#servicos h5 {
+    font-size: 15px;
+}
+
+/* Capa */
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.capa a {
+    font-family: fantasy;
+    color: white;
+}
+
+.capa h5 {
+    font-size: 15px;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+    background: limegreen;
+}
+
+.btn-roxo:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background: white;
+    color: black;
+}
+
+
+#plataformas {
+    background-color: white;
+}
+
+/* Recursos https://cdn.cgmagonline.com/wp-content/uploads/2016/08/spotify-launches-gaming-music-channel-2-1280x720.jpg*/
+
+html, body, .capa {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: url('http://cdn.knowledgehi.com/1920x1080/20121024/mother%20maybelle%20most%20awesome%20guitar%20wallpaper%201920x1080%20wallpaper_www.knowledgehi.com_73.jpg');
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#recursos {
+    padding: 20px 0;
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(20deg);
+    -ms-transform: rotate(20deg); /* iE - Internet Explorer*/
+    -webkit-transform: rotate(20deg); /* Safari, Chrome, Opera  */
+    padding-left: 80px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+/* Rodape */
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px; /*Todo, Direita, Baixo, Esquerda */
+    position: relative;
+    
+}
+
+.img-logo {
+    height: 50px;
+    width: 132px;
+    display: block;
+    background: url('spotify-logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+.img-rede-social {
+    float: right;
+    margin-left: 10px;
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#rodape a {
+    color: white;
+    font-size: 13px;
+}
+
+
+/* Barra de Navegação */
+.navbar-inverse .navbar-nav > li > a, footer, nav a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+
+.nav {  
+    display: block;
+}
+
+/* Grid */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+}
